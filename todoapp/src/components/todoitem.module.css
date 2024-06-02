@@ -1,0 +1,43 @@
+.item {
+  width: 500px;
+  color: #353935;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.itemName {
+  font-weight: bold;
+  padding: 20px;
+}
+
+.line {
+  border: 1px solid #f4f4f4;
+}
+
+.grandparentContainer {
+  /* Updated class name */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; /* Ensure it takes the full width */
+}
+
+.buttonContainer {
+  /* Updated class name */
+  display: flex;
+  gap: 10px; /* Adjust gap as needed */
+}
+
+.deleteButton,
+.checkButton {
+  border: none;
+  color: white;
+  background-color: #967bb6;
+  border-radius: 4px;
+  padding: 12px 20px;
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+}
